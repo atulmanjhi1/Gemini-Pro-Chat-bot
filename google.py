@@ -16,7 +16,7 @@ def generate_response(prompt, category):
 
 # Streamlit interface
 def main():
-    st.title("Qwikchat")
+    st.title("Quickchat")
     
     category = st.selectbox("Select the type of information you need", ["definition", "mean", "type", "Instraction", "basic information","Notes"])
     prompt = st.text_input("Ask me a Question")
