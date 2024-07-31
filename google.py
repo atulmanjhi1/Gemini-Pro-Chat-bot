@@ -18,7 +18,7 @@ def generate_response(prompt, category):
 def main():
     st.title("Qwikchat")
     
-    category = st.selectbox("Select the type of information you need", ["definition", "mean", "type", "code", "basic information","Notes"])
+    category = st.selectbox("Select the type of information you need", ["definition", "mean", "type", "Instraction", "basic information","Notes"])
     prompt = st.text_input("Ask me a Question")
     
     if st.button("Run"):
